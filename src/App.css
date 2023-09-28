@@ -1,0 +1,45 @@
+body::-webkit-scrollbar{
+    display: none;
+}
+
+header{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                    not supported by any browser */
+}
+.App{
+    background-color:#ffe4c4;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@keyframes slideInRight{
+    from {
+        transform: translateX(1000px);
+    }
+
+    to {
+        transform: translate(0px);
+    }
+}
+
+.slideInRight{
+    animation: slideInRight 1.5s ease-in;
+}
+
+.fimage{
+    transform: translateY(+15%);
+    transition: transform 0.3s ease;
+
+    filter: drop-shadow(5px 5px 10px black)
+
+}
+
+
+.fimage:hover {
+    transform: translateY(0%);
+    transform: scale(1.02);
+  }

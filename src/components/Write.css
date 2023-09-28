@@ -1,0 +1,43 @@
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+.Write{
+    background-color:#ffe4c4;
+    font-family: 'Quicksand', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                    not supported by any browser */
+}
+
+@keyframes slideInRight{
+    from {
+        transform: translateX(1000px);
+    }
+
+    to {
+        transform: translate(0px);
+    }
+}
+
+.slideInRight{
+    animation: slideInRight 1.5s ease-in;
+}
+
+.count{
+    color: red;
+    font-size:xx-large;
+    margin: 2em;
+    padding-top: 2em;
+}
+
