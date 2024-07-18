@@ -5,7 +5,6 @@ Welcome to the Memory Retention Tool repository! This project is a React-based a
 ## Table of Contents
 
 - [Features](#features)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
