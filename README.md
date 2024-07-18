@@ -6,7 +6,6 @@ Welcome to the Memory Retention Tool repository! This project is a React-based a
 
 - [Features](#features)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -50,9 +49,5 @@ Contributions are welcome! To contribute, please follow these steps:
 5. Open a Pull Request.
 
 Please make sure your code adheres to our coding standards and includes appropriate tests.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 Thank you for using the Memory Retention Tool! We hope it helps you achieve your learning goals.
